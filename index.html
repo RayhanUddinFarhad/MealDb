@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <section class="container mx-auto">
+
+
+
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl">Tasty HUT</a>
+                </div>
+                <div class="flex-none">
+                    <button class="btn btn-warning">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+
+            <div class="hero" style="background-image:url(images/banner_1.png); height: 600px;">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Taste Our Delicious Best Foods</h1>
+                        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humou..</p>
+                        <div>
+
+                            <input id="searchInput" class="w-9/12 p-2 text-black" type="text"
+                                placeholder="Search Here..">
+                            <button onclick="searcbtn ()" class="btn-warning p-2 px-6">Search </button>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+
+    </header>
+
+
+
+    <main class="container mx-auto my-12">
+
+        <section id="container" class="grid lg:grid-cols-2 gap-10">
+
+
+
+
+
+
+
+        </section>
+
+
+        <button class="btn btn-warning my-10 mx-auto flex justify-center">
+            See All
+        </button>
+
+
+
+        <!-- modal  -->
+
+
+        <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+        <div class="modal">
+            <div class="modal-box relative">
+                <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+
+                <div id="images-container">
+
+
+                </div>
+                <h3 id="items-name" class="text-lg font-bold">Congratulations random Internet user!</h3>
+                <p id="details" class="py-4">You've been selected for a chance to get one year of subscription to use
+                    Wikipedia for free!</p>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+    <footer>
+
+
+
+
+
+        <footer class="footer p-10 bg-base-200 text-base-content">
+            <div>
+                <span class="footer-title">Home</span>
+                <a class="link link-hover">Features</a>
+                <a class="link link-hover">Pricing</a>
+                <a class="link link-hover">FAQs</a>
+                <a class="link link-hover">About</a>
+            </div>
+            <div>
+                <span class="footer-title">Company</span>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </div>
+            <div>
+                <span class="footer-title">Legal</span>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+            <div>
+                <span class="footer-title">Newsletter</span>
+                <div class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="relative">
+                        <input type="text" placeholder="Email address" class="input input-bordered w-full pr-16" />
+                        <button class="btn btn-warning absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
